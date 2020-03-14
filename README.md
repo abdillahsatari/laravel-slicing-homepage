@@ -5,13 +5,14 @@
 
 # README
 
-## What's in this repository? ##
+## About This Repo ##
+This repo was created to give you an idea of how I created or engineered project structures from the basics to the smallest details in building 
+a website in order to produce a project with clean code, more structured (in this case maximizing the MVC pattern) and of course making development 
+become more attractive and better.
 
-* Homepage (Front-end)
+## How To Start ?
 
-## Set Up
-
-### environments
+### Environments Set Up
 * Laravel: 7.1.0
 * PHP : 7.4.3
 * MySQL: 5.7
