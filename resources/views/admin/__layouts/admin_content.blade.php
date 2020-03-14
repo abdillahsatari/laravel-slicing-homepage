@@ -1,1 +1,1 @@
-<?php
+@if ($content) @extends($content) @endif

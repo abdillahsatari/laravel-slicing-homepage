@@ -1,1 +1,1 @@
-@if ($isi) @extends($isi) @endif
+@if ($content) @extends($content) @endif
