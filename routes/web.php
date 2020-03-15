@@ -14,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 /* Public routes*/
-Route::get('/', 'Publics\HomepageController@index')->name('public.homepage.index');
+Route::get('/', 'Publics\HomepageController@index')->name('public.contents.home');
+Route::get('/about', 'Publics\AboutpageController@index')->name('public.contents.about');

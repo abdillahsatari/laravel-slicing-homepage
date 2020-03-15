@@ -6,12 +6,12 @@ use App\Http\Controllers\Controller;
 use App\Traits\GeneralServiceTraits;
 use Illuminate\Http\Request;
 
-class HomePageController extends Controller
+class AboutPageController extends Controller
 {
     use GeneralServiceTraits;
 
     public function index() {
-        $content 	        = 'public/contents/home';
+        $content 	        = 'public/contents/about';
         $dataPageSetting    = $this->pageSetting['PUBLIC'];
         $data 		        = array('content'       => $content,
                                     'pageSetting'   => $dataPageSetting);
