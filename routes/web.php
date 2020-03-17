@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'Publics\HomepageController@index')->name('public.contents.home');
 Route::get('/about', 'Publics\AboutpageController@index')->name('public.contents.about');
 Route::get('/contact', 'Publics\ContactpageController@index')->name('public.contents.contact');
+Route::get('/courses', 'Publics\CoursespageController@index')->name('public.contents.courses');

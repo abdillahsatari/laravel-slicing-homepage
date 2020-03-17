@@ -16,7 +16,7 @@
                             <nav>
                                 <ul id="navigation">
                                     <li><a class="{{ Route::is('public.contents.home') ? 'active' : '' }}" href="{{ route('public.contents.home') }}">home</a></li>
-                                    <li><a href="Courses.html">Courses</a></li>
+                                    <li><a class="{{ Route::is('public.contents.courses') ? 'active' : '' }}" href="{{ route('public.contents.courses') }}">Courses</a></li>
                                     <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                         <ul class="submenu">
                                             <li><a href="course_details.html">course details</a></li>
