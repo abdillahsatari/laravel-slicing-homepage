@@ -26,7 +26,7 @@
                                     <li><a class="{{ Route::is('public.contents.about') ? 'active' : '' }}" href="{{ route('public.contents.about') }}">About</a></li>
                                     <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                         <ul class="submenu">
-                                            <li><a href="blog.html">blog</a></li>
+                                            <li><a class="{{ Route::is('public.contents.blog') ? 'active' : '' }}" href="{{ route('public.contents.blog') }}">blog</a></li>
                                             <li><a href="single-blog.html">single-blog</a></li>
                                         </ul>
                                     </li>
