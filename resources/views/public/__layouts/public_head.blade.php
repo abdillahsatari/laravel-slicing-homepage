@@ -3,9 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Edumark</title>
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Abdillah Satari Rahim">
+        <meta name="author" content="Abdillah Satari Rahim">
+        <meta name="keyword" content="Abdillah Satari, academy, design, baji pamai, bp studio">
+
+        <title>{{$title ?? 'Welcome To BpStudio'}}</title>
 
         @include('include.head_setting')
 
